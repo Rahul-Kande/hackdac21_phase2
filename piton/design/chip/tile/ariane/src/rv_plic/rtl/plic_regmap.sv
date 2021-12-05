@@ -1,4 +1,3 @@
-// Do not edit - auto-generated
 module plic_regs (
   input logic [2:0][2:0] prio_i,
   output logic [2:0][2:0] prio_o,

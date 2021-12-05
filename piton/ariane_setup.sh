@@ -47,7 +47,7 @@ echo "openpiton/ariane path setup"
 echo "----------------------------------------------------------------------"
 echo
 
-echo "make sure that you source this script in a bash shell in the root folder of OpenPiton"
+echo "make sure that you source this script in a bash shell in the root folder of hackdac21_phase2"
 
 if [ "$0" !=  "bash" ] && [ "$0" != "-bash" ]
 then
@@ -94,8 +94,7 @@ if [[ $(readlink -e "${RISCV}/bin/spike") == "" ]]
 then
     echo
     echo "----------------------------------------------------------------------"
-    echo "setup complete. do not forget to run the following script             "
-    echo "if you run the setup for the first time: ./piton/ariane_build_tools.sh"
+    echo "setup complete."
     echo "----------------------------------------------------------------------"
     echo
 else

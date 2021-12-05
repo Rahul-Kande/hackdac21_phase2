@@ -20,7 +20,7 @@
 int main(int argc, char ** argv) {
 
   printf("starting!\n");
-  printf("Welcome to Hack@CHES 2021!\n");
+  printf("Welcome to Hack@DAC 2021!\n");
 
   printf("Done!\n");
 
